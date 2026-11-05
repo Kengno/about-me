@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f6f5ef" />
+  <meta name="description" content="A little corner of the internet about what I make, learn, and love." />
+  <title>Hey, I'm Kenzie — About Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <aside class="music-widget" aria-label="Website music player">
+    <button class="music-toggle" id="music-toggle" type="button" aria-expanded="false" aria-controls="music-panel">
+      <span class="music-disc" aria-hidden="true">♪</span>
+      <span class="music-label"><strong>Baby Shark</strong><small>Press play for a surprise 🦈</small></span>
+      <span class="music-play-icon" id="music-play-icon" aria-hidden="true">▶</span>
+    </button>
+    <div class="music-panel" id="music-panel" hidden>
+      <div class="music-panel-top"><strong>Baby Shark Dance 🦈</strong><button type="button" id="music-close" aria-label="Close music player">×</button></div>
+      <div class="video-frame"><iframe id="baby-shark-video" title="Baby Shark Dance by Pinkfong" src="https://www.youtube-nocookie.com/embed/XqZsoesa55w?enablejsapi=1&playsinline=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <p>Official YouTube video by Pinkfong. Tap play inside the video to start the music.</p>
+    </div>
+  </aside>
+  <header class="nav-wrap"><nav class="nav container" aria-label="Main navigation"><a class="logo" href="#home">k<span>.</span></a><div class="nav-links"><a href="#about">About</a><a href="#interests">Interests</a><a href="#goals">Goals</a></div><a class="nav-cta" href="#contact">Say hello <span>↗</span></a></nav></header>
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> Welcome to my little corner of the internet</div><h1>Hey, I'm <span class="underline-swish">Kenzie<span class="spark">✳</span></span><br>I like to <em id="rotating-word">make things.</em></h1><p class="hero-sub">Student, curious maker, and a big fan of turning random ideas into something real. Currently learning, experimenting, and figuring it all out.</p><div class="hero-actions"><a href="#about" class="btn btn-dark">Get to know me <span>↘</span></a><a href="#interests" class="btn btn-outline">Explore my world <span>✦</span></a></div><div class="hero-foot"><span class="asterisk">✳</span> A work in progress — just like this website.</div></div>
+      <div class="hero-art" aria-label="Playful abstract illustration"><div class="art-grid"></div><div class="art-circle circle-one"></div><div class="art-circle circle-two"></div><div class="art-card art-main"><span class="mini-label">CURRENT MOOD</span><div class="face">:)</div><span class="art-caption">making cool stuff<br>one idea at a time</span></div><div class="float-sticker sticker-top">✦ stay curious</div><div class="float-sticker sticker-bottom">IDEAS → REALITY ↗</div><div class="star star-one">✳</div><div class="star star-two">✴</div></div>
+    </section>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>STAY CURIOUS ✳ KEEP CREATING ✳ TRY NEW THINGS ✳ MAKE IT HAPPEN ✳ </span><span>STAY CURIOUS ✳ KEEP CREATING ✳ TRY NEW THINGS ✳ MAKE IT HAPPEN ✳ </span></div></div>
+    <section class="section container" id="about"><div class="section-kicker reveal">01 / THE INTRO</div><div class="about-layout"><h2 class="section-title reveal">A little bit<br><span class="serifish">about me.</span></h2><div class="about-right reveal"><p class="big-text">I’m someone who gets excited about <mark>new ideas</mark> — especially when I can actually build them.</p><p>From tech projects and 3D printing to music, sports, and learning new skills, I love exploring different things. I don't have everything figured out, and that's kind of the fun part.</p><div class="quick-facts"><div><span>BASED IN</span><strong>Medan, Indonesia 📍</strong></div><div><span>ALWAYS DOING</span><strong>Learning something new ✨</strong></div></div></div></div></section>
+    <section class="section interests-section" id="interests"><div class="container"><div class="section-heading reveal"><div><div class="section-kicker">02 / THE GOOD STUFF</div><h2 class="section-title">Things I'm <span class="serifish">into.</span></h2></div><p>A mix of hobbies, obsessions, and things I could talk about for hours.</p></div><div class="cards"><article class="interest-card card-lime reveal"><div class="card-top"><span>01 / MAKE</span><span>↗</span></div><div class="card-illustration printer">▤<span>✳</span></div><h3>3D Printing</h3><p>Making digital ideas into real-life objects. The best kind of magic.</p><div class="pill">DESIGN & BUILD</div></article><article class="interest-card card-lavender reveal"><div class="card-top"><span>02 / CREATE</span><span>↗</span></div><div class="card-illustration guitar">♫<span>✦</span></div><h3>Music & Guitar</h3><p>Learning chords, chasing good sounds, and getting better one song at a time.</p><div class="pill">CREATIVE MODE</div></article><article class="interest-card card-peach reveal"><div class="card-top"><span>03 / THINK</span><span>↗</span></div><div class="card-illustration chess">♞<span>✳</span></div><h3>Chess</h3><p>A little strategy, a little chaos, and a lot of thinking ahead.</p><div class="pill">BRAIN WORKOUT</div></article><article class="interest-card card-blue reveal"><div class="card-top"><span>04 / EXPLORE</span><span>↗</span></div><div class="card-illustration code">&lt;/&gt;<span>✧</span></div><h3>Tech & AI</h3><p>Building useful tools, trying new tech, and seeing what’s possible.</p><div class="pill">IDEA LAB</div></article><article class="interest-card card-yellow reveal"><div class="card-top"><span>05 / MOVE</span><span>↗</span></div><div class="card-illustration sport">◉<span>↗</span></div><h3>Sports</h3><p>Badminton, swimming, and giving tennis a shot. Always up for a challenge.</p><div class="pill">ACTIVE DAYS</div></article><article class="interest-card card-cream reveal"><div class="card-top"><span>06 / GROW</span><span>↗</span></div><div class="card-illustration learn">✎<span>✳</span></div><h3>Learning</h3><p>New languages, new skills, new perspectives. Curiosity never clocks out.</p><div class="pill">LEVELING UP</div></article></div></div></section>
+    <section class="section container" id="goals"><div class="section-kicker reveal">03 / WHAT'S NEXT</div><div class="goals-layout"><div class="reveal"><h2 class="section-title">Always a<br><span class="serifish">work in progress.</span></h2><p class="goals-desc">A few things on my personal to-do list. Big dreams, small steps, lots of trying.</p><div class="goal-doodle">✳ <span>keep going!</span></div></div><div class="goal-list reveal"><div class="goal-row"><span>01</span><strong>Keep growing in school</strong><span>↗</span></div><div class="goal-row"><span>02</span><strong>Get better at Mandarin</strong><span>↗</span></div><div class="goal-row"><span>03</span><strong>Improve my guitar skills</strong><span>↗</span></div><div class="goal-row"><span>04</span><strong>Build more cool projects</strong><span>↗</span></div><div class="goal-row"><span>05</span><strong>Explore more of the world</strong><span>↗</span></div></div></div></section>
+    <section class="contact-section" id="contact"><div class="container contact-inner reveal"><span class="section-kicker">04 / THE END (FOR NOW)</span><div class="contact-icon">✳</div><h2>That's me, <em>for now.</em></h2><p>Thanks for stopping by my little corner of the internet.<br>There's always more to come.</p><a class="btn btn-dark" href="mailto:hello@example.com?subject=Hello%20from%20your%20website">Say hello <span>↗</span></a><small>Replace the sample email address with your own before publishing.</small></div></section>
+  </main>
+  <footer class="footer container"><a href="#home" class="logo">k<span>.</span></a><span>Made with curiosity & a little bit of caffeine-free chaos ✳</span><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
